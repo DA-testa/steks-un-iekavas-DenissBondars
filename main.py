@@ -33,9 +33,9 @@ def find_mismatch(text):
 def main():
     # Printing answer, write your code here
     FI = input()
-    if FI[0] == "I" in FI:
+    if "I" in FI:
         text = input()
-    if FI[0] == "F" in FI:
+    if "F" in FI:
         test = input()
         text = test.read()
         
