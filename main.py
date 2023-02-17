@@ -37,8 +37,8 @@ def main():
     if "I" in FI:
         text = input()
     if "F" in FI:
-        test = input()
-        text = test.read()
+        test_file = input()
+        text = test_file.read()
         
     mismatch = find_mismatch(text)
     print(mismatch)  
