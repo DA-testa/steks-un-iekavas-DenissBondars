@@ -37,7 +37,7 @@ def main():
         text = input()
     if FI[0] == "F" in FI:
         test = input()
-        text = test.readline()
+        text = test.read()
         
     mismatch = find_mismatch(text)
     print(mismatch)  
