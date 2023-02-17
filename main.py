@@ -36,12 +36,11 @@ def main():
     if FI[0] == "I" in FI:
         text = input()
     if FI[0] == "F" in FI:
-        f = input()
-        open(f)
-        text = f.read()
+        test = input()
+        text = test.read()
         
     mismatch = find_mismatch(text)
-    print(mismatch)
+    print(mismatch)  
     
 if __name__ == "__main__":
     main()
